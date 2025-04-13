@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    
+    int b=5,h=4,s=3;
+    int area,peri;
+    area=b*h;
+    peri=2*(b+h);
+    printf("area of parallelogram = %.d\n",area);
+    printf("perimeter of parallelogram = %d\n",peri);
+
+}
