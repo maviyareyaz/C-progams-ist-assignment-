@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    
+    int a=8,b=6,c=4,d=3,h=5;
+    int area,peri;
+    area=0.5*(a+b)*h;
+    peri=a+b+c+d;
+    printf("area of trapezium = %d\n",area);
+    printf("perimeter of trapezium = %d\n",peri);
+
+}
